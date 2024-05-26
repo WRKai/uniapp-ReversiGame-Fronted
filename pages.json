@@ -1,0 +1,28 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/MultiplayerGame/MultiplayerGame",
+		"style": {
+			"navigationBarTitleText": "对局中......",
+			"navigationStyle": "default",
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "黑白棋 By Rongkai Wang",
+		"navigationBarBackgroundColor": "#ede0ce",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4",
+			"scrollIndicator": "none",
+			"bounce": "none"
+		}
+	}
+}
